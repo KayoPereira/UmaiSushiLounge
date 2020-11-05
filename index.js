@@ -1,0 +1,4 @@
+
+function contato() {
+    alert("teste");
+}
