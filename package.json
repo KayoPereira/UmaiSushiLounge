@@ -1,0 +1,23 @@
+{
+  "name": "umaisushilounge",
+  "version": "1.0.0",
+  "description": "Site do UmaiSushiLounge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KayoPereira/UmaiSushiLounge.git"
+  },
+  "author": "Kayo Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KayoPereira/UmaiSushiLounge/issues"
+  },
+  "homepage": "https://github.com/KayoPereira/UmaiSushiLounge#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
