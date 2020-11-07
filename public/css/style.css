@@ -1,22 +1,28 @@
 .navbar-brand {
-    font-family: "marck script", cursive;
-    font-style: normal;
-    font-size: 30px;
+  font-family: "marck script", cursive;
+  font-style: normal;
+  font-size: 30px;
   }
   
-  .cont {
-    display: flex;
-    justify-content: center;
+.body-geral {
+  margin: 0;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
   
   }
   
-  .carousel-inner {
-    width: 910px;
-    height: 533px;
+.carousel-inner {
+  width: 910px;
+  height: 533px;
+  border: 0;
   }
   
-  .logoname {
-      width: 250px;
+.logoname {
+    width: 250px;
+      
   }
 
   @media (max-width: 600px) {
@@ -27,8 +33,18 @@
 
 }
 
-.border {
+.border-personal {
+    margin-top: 30px;
     padding: 5px;
     background-color: #53320d;
+    
 }
 
+.navbar navbar-expand-lg navbar-light bg-light {
+  display: flex;
+  justify-content: center
+}
+
+.border {
+  border: 0;
+}
