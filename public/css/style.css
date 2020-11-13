@@ -1,4 +1,8 @@
-.body-geral {
+.geral-navbar {
+  display: block;
+}
+
+.body-geral { 
   position: relative;
   height: 100vh;
   width: 100vw;
