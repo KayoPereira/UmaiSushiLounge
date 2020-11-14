@@ -19,8 +19,3 @@ btClose.addEventListener('click', function(){
     modal.classList.toggle('modal_active');
 });
 
-function mostra(id) {
-    // if (document.getElementById(id).style.display == "block"){
-    document.getElementById(id).style.display = "none";
-// }else { document.getElementById(id).style.display == "block"; }
-}

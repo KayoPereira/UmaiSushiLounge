@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-     
+    <link rel="stylesheet" href="/css/navbar.css"> 
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="/imagens/favicon.png"/>
 
@@ -17,58 +17,71 @@
 <!-- Bootstrap CSS 
     <body background="/imagens/background.jpg" class="background-geral">
       -->  
-    <div class="geral-navbar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <header>
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            padding-left: 16px;
+            background-color: #f8f9fa;
+            height: 75px;
+          "
+        >
+          <nav style="display: flex; align-items: center; justify-content: initial">
             <div class="container-logoname">
-                <a class="navbar-brand" href="index.html"><img class="logoname" src="imagens/logoname.png.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <a class="navbar-brand" href="index.html"
+                ><img
+                  style="margin-right: 5px"
+                  class="logoname"
+                  src="imagens/logoname.png.png"
+                  alt=""
+              /></a>
+            </div>
+    
+            <div>
+              <a class="navbar-item" href="rodizio.html">Rodízio</a>
+              <a class="navbar-item" href="promocoes.html">Promoções</a>
+              <a class="navbar-item" href="cardapio.html">Cardápio</a>
+              <a class="navbar-item" href="gallery.html">Galeria</a>
+              <a class="navbar-item" href="sugestoes.html">Sugestões</a>
+    
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Contato<img
+                    style="width: 10px; margin-left: 5px"
+                    src="imagens/drop-down-arrow.svg"
+                  />
                 </button>
-            </div>
-
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                
-                <li class = " nav-item active ">
-                    <a  class = " nav-link " href ="rodizio.html">Rodízio</a>
-                </li>
-                <li class = " nav-item active ">
-                    <a class = " nav-link " href ="promocoes.html">Promoções</a>
-                </li>
-                <li class = " nav-item active ">
-                    <a class = " nav-link " href ="cardapio.html">Cardápio</a>
-                </li>
-                <li class = "nav-item active">
-                    <a class = "nav-link" href ="gallery.html">Galeria</a>
-                </li>
-                <li class = "nav-item active">
-                    <a class = "nav-link" href ="sugestoes.html">Sugestões</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Contato
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="tel:81983729878">Ligar</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" target="_blank" href="https://api.whatsapp.com/send?phone=5581983729878&text=Umai%20Sushi%20Lounge%2C%20diferente%20de%20tudo%20que%20voc%C3%AA%20j%C3%A1%20viu!!">Whatsapp</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Redes Sociais
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" target="_blank" href="https://www.facebook.com/UmaiSushiLounge">Facebook</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" target="_blank" href="https://www.instagram.com/umai_sushi_lounge/?hl=pt-br">Instagram</a>
+                <div class="dropdown-content">
+                  <a class="dropdown-item" href="tel:81983729878">Ligar</a>
+                  <a
+                    class="dropdown-item"
+                    target="_blank"
+                    href="https://api.whatsapp.com/send?phone=5581983729878&text=Umai%20Sushi%20Lounge%2C%20diferente%20de%20tudo%20que%20voc%C3%AA%20j%C3%A1%20viu!!"
+                    >Whatsapp</a
+                  >
                 </div>
-                </li>
-            </ul>
+              </div>
+    
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Redes Sociais<img
+                    style="width: 10px; margin-left: 5px"
+                    src="imagens/drop-down-arrow.svg"
+                  />
+                </button>
+                <div class="dropdown-content">
+                  <a href="#"> Redes Sociais </a>
+                  <a href="https://www.facebook.com/UmaiSushiLounge">Facebook</a>
+                  <a href="https://www.instagram.com/umai_sushi_lounge/?hl=pt-br"
+                    >Instagram</a
+                  >
+                </div>
+              </div>
             </div>
-        </nav>
-    </div>
+          </nav>
+        </div>
+      </header>
 
     <div class="geral">
       <div class="cont">
